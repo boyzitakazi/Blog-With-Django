@@ -1,0 +1,53 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="{% static 'img/favicon.png' %}" type="image/png">
+  <title>Steve Portfolio</title>
+  
+  <!--================ CSS Bootstrap File In Snippets =================-->
+  {% include 'snippets/css/main.html' %}  
+
+</head>
+
+<body>
+  
+  <!--================ WEBPAGES ITEM =================-->
+
+
+  <!--================ Start Header File In Snippets =================-->
+  {% include 'snippets/webpages/header.html' %}
+
+  <!--================ Item After Banner =================-->
+  {% block content_after_banner0 %}{% endblock %}
+
+
+  <!--================ Item After Banner =================-->
+  {% block content_after_banner01 %}{% endblock %}
+
+
+  <!--================ Item After Banner =================-->
+  {% block content_after_banner02 %}{% endblock %}
+
+
+  <!--================ Item After Banner =================-->
+  {% block content_after_banner03 %}{% endblock %}
+
+
+  <!--================ Item After Banner =================-->
+  {% block content_after_banner04 %}{% endblock %}
+
+
+  <!--================ Start Footer File In Snippets =================-->
+  {% include 'snippets/webpages/index/footer.html' %}
+
+  <!--================ Scripts File In Snippets =================-->
+  {% include 'snippets/js/main.html' %}
+  
+</body>
+
+</html>
